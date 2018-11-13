@@ -10,7 +10,7 @@ c = 1;
 %nnc = 7.3; %rad/s
 
 tstart = 0;
-tstop = 2500; 
+tstop = 25000; 
 
 tsamp = 0.1;
 SampleTime = 0.01;
