@@ -33,16 +33,16 @@ k_i_nc = 1;
 
 sim('MSFartoystyring2017.slx');
 
-% figure (1); clf;
-% hold on;
-% plot(p(1,:),p(:,1),'b');
-% plot(WP(2,:),WP(1,:),'r');
-% hold off;
-% legend('Position','path');
-% title('Position');
-% grid on;
-% xlabel('Easth [m]'); 
-% ylabel('North [m]');
+figure (1); clf;
+hold on;
+plot(p(:,2),p(:,1),'b');
+plot(WP(:,2),WP(:,1),'r');
+hold off;
+legend('Position','path');
+title('Position');
+grid on;
+xlabel('Easth [m]'); 
+ylabel('North [m]');
 % 
 % figure (2); clf;
 % hold on;

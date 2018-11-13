@@ -1,0 +1,10 @@
+figure (1); clf;
+hold on;
+plot(p(:,2),p(:,1),'b');
+plot(WP(2,:),WP(1,:),'r');
+hold off;
+legend('Position','path');
+title('Position');
+grid on;
+xlabel('Easth [m]'); 
+ylabel('North [m]');
